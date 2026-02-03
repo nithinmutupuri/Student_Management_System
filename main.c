@@ -19,7 +19,7 @@
         int option,no_of_student=0,search,process=1;
         printf("-----WELCOME TO STUDENT DETAILS MANAGEMENT SYSTEM-----\n");
         do{
-            printf("\n1) Add student details\n2) Modify student details\n3) search for student details\n4) Display all student details\n5) Total number student registered\n6) End task\nChoose a option : ");
+            printf("\n1) Add student details\n2) Modify student details\n3) Search for student details\n4) Display all student details\n5) Total number student registered\n6) End task\nChoose a option : ");
             scanf("%d",&option);
             switch(option){
                 case 1:
@@ -110,4 +110,5 @@
             printf("Name : %s\n",s[i].name);
             printf("CGPA : %.2f\n",s[i].cgpa);
         }
+
     }
